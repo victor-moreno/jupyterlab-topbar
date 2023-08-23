@@ -4,6 +4,11 @@
   "jupyter.lab.toolbars": {
     "TopBar": [
       {
+        "name": "control",
+        "command": "jupyterlab-topbar:control",
+        "rank": 150
+      },
+      {
         "name": "logout",
         "command": "jupyterlab-topbar:logout",
         "rank": 150
