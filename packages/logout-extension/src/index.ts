@@ -24,6 +24,14 @@ const extension: JupyterFrontEndPlugin<void> = {
     const command = namespace + ':logout';
 
     commands.addCommand(command, {
+      label: 'Control',
+      execute: (args: any) => {
+        router.navigate('../../home', { hard: true });
+      },
+    });
+
+    const command2 = namespace + ':logout';
+    commands.addCommand(command2, {
       label: 'Log Out',
       execute: (args: any) => {
         router.navigate('/logout', { hard: true });
