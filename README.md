@@ -135,3 +135,6 @@ jupyter lab build --minimize=False
 ```bash
 pip uninstall jupyterlab_topbar_text jupyterlab_logout jupyterlab_theme_toggler
 ```
+
+### Control button
+I have modified the code to add a 'Control' butto to point o '../../home'
