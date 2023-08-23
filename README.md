@@ -135,3 +135,7 @@ jupyter lab build --minimize=False
 ```bash
 pip uninstall jupyterlab_topbar_text jupyterlab_logout jupyterlab_theme_toggler
 ```
+
+## jupyterlab-logout & control
+
+I have modified the code to add an extra button named 'Control' to send to ../../home
